@@ -31,6 +31,9 @@ void main() {
   print(l2);
   // but
   List l3 = [null];
+  // List names = [null]; // kei nadinu bhaneko dynamic so null dina milxa
+  // List<String> namess = [null]; // error cause String is not nullable
+  // List<String?> namesss = [null]; // correct
   print(l3);
   // null sanga related errors haru hamile compile time mai catch grrna sakxam jasle runtime crashes haru bachauxa.
 
