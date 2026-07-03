@@ -1,1 +1,2 @@
-   // print(item.runtimeType);
+  // model = "bmw";
+    // speed = 300;
