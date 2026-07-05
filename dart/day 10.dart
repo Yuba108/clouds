@@ -107,6 +107,9 @@ class Carr {
     this.model,
     this.speed,
   ); // duitai parameters required ho so nullable chainna properties ma
+
+  // or
+  // Carr(this.model, this.speed){}
 }
 
 class Carr1 {
