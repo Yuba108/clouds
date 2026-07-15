@@ -18,7 +18,7 @@ void main() {
   c1.sleep();
   c1.meow();
 
-  // 2. Heirarchial Inheritance
+  // 2. Multilevel Inheritance
   A g = A();
   g.name = "grandpa max";
   print(g.name);
