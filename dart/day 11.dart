@@ -18,7 +18,7 @@ void main() {
   c1.sleep();
   c1.meow();
 
-  // 2. Heirarchial Inheritance
+  // 2. Multilevel Inheritance
   A g = A();
   g.name = "grandpa max";
   print(g.name);
@@ -42,6 +42,7 @@ void main() {
 
   // why super keyword? : to pass the value to parent constructor.
   Y y1 = Y("babalu", "tripathi", "red");
+  y1.hello();
 }
 
 class Animal {
@@ -151,11 +152,11 @@ class F extends E {
 // super keyword: used to refer parent class
 class X {
   String name;
-  String sirname;
-  X(this.name, this.sirname) {
+  String surname;
+  X(this.name, this.surname) {
     print("X ko constructor");
     print(this.name);
-    print(this.sirname);
+    print(this.surname);
   }
 }
 
@@ -164,5 +165,9 @@ class Y extends X {
   Y(String hello, String sn, this.Color) : super(hello, sn) {
     print("Y ko constructor");
     print(this.Color);
+  }
+
+  void hello() {
+    print(super.name);
   }
 }

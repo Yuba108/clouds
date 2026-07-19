@@ -1,5 +1,5 @@
 void main() {
-  // constructor :  function that has same name as class that is automatically when the object is created
+  // constructor :  function that has same name as class that is called automatically when the object is created
   //contructor ko return type hudaina
   //constructor banako xaina bhane default constructor hunxa
 

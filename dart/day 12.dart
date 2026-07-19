@@ -1,5 +1,5 @@
 void main() {
-  // multiple inhertance :  child class inherits form multiple parent classes => dart doesnot support multiple inhertance.
+  // multiple inheritance :  child class inherits form multiple parent classes => dart doesnot support multiple inhertance.
 
   // mixin : reuseable bundels of methods and properties that can be added to multiple classes
   Human h1 = Human();
